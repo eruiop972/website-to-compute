@@ -1,56 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ar" dir="rtl">
 <head>
-  <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-  <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-  <title>Hello World!</title>
-
-  <!-- The website stylesheet -->
-  <link rel="stylesheet" href="/style.css" />
-
-  <!-- The website JavaScript file -->
-  <script src="/script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TREND DIGITAL MEDIA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&family=Tajawal:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-  <div class="wrapper">
-    <div class="content" role="main">
-      <h1 class="title">Oh hi website!</h1>
-      <img src="/cool-website.svg" class="illustration" alt="cool website" />
-      <div class="instructions">
-        <p>
-          Fork <a href="https://github.com/glitchdotcom/website-to-compute">this project</a> and open it in a GitHub Codespace.
-        </p>
-        <p> Follow the steps in the README to deploy your new website to Fastly in a few steps!
-        </p>
 
-      </div>
-
-      <footer class="footer">
-        <div>
-          <a class="remix" href="https://github.com/glitchdotcom/website-to-compute">🚧 Get your own site</a>
+    <!-- شريط علوي -->
+    <header class="top-bar">
+        <div class="container">
+            <img src="logo.jpeg" alt="TREND DIGITAL MEDIA" class="logo">
+            <div class="contact-info">
+                <a href="tel:0916256233">📞 0916256233</a>
+                <a href="https://wa.me/218916256233" class="whatsapp-btn">💬 واتساب</a>
+            </div>
         </div>
-      </footer>
-    </div>
-  </div>
-</body>
+    </header>
 
+    <!-- المقدمة -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="company-name">TREND DIGITAL MEDIA</h1>
+            <p class="tagline">نحو مستقبل رقمي أكثر احترافية وإبداعاً</p>
+            <p class="intro-text">
+                نحن في TREND DIGITAL MEDIA نؤمن أن النجاح في عالم التسويق الرقمي يبدأ من الفكرة الإبداعية وصولاً إلى التنفيذ الدقيق والمُخطط له بعناية. نقدم لك حلولاً متكاملة تشمل التصوير، إدارة الحملات الإعلانية، تصميم وإدارة الصفحات، لنحقق لك أقصى استفادة من حضورك الرقمي.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn primary-btn">ابدأ الآن</a>
+                <a href="#services" class="btn secondary-btn">تعرّف على خدماتنا</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- من نحن -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>من نحن</h2>
+            <p>
+                نحن فريق من الخبراء والمبدعين في مجال التسويق الرقمي، نعمل على فهم احتياجات عملائنا وتحويلها إلى استراتيجيات مبتكرة وفعّالة. نركز على الجودة، الإبداع، والنتائج الملموسة التي تساهم في نمو أعمالك وتعزيز علامتك التجارية.
+            </p>
+        </div>
+    </section>
+
+    <!-- خدماتنا -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>خدماتنا</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <h3>📷 التصوير الإبداعي</h3>
+                    <p>ابتكار صور مميزة تجذب الانتباه وتعكس هوية علامتك التجارية.</p>
+                </div>
+                <div class="service-card">
+                    <h3>📢 الإعلانات الممولة باحترافية</h3>
+                    <p>إدارة حملات إعلانية على فيسبوك وإنستغرام لتحقيق أفضل النتائج.</p>
+                </div>
+                <div class="service-card">
+                    <h3>🎥 التصوير الإعلاني</h3>
+                    <p>إنتاج فيديوهات دعائية احترافية لعرض منتجاتك أو خدماتك بأفضل صورة.</p>
+                </div>
+                <div class="service-card">
+                    <h3>🎨 تصميم وإدارة الصفحات</h3>
+                    <p>تصميم محتوى جذاب وإدارة تفاعلية لصفحاتك على وسائل التواصل.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- كيف نعمل -->
+    <section class="how-we-work">
+        <div class="container">
+            <h2>كيف نعمل</h2>
+            <div class="steps">
+                <div class="step">1️⃣ الفهم والتخطيط</div>
+                <div class="step">2️⃣ الإنتاج والإبداع</div>
+                <div class="step">3️⃣ التنفيذ والترويج</div>
+                <div class="step">4️⃣ القياس والتحسين</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تواصل معنا -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>تواصل معنا</h2>
+            <div class="contact-methods">
+                <div class="contact-card">
+                    <p>📞 0916256233</p>
+                </div>
+                <div class="contact-card">
+                    <a href="https://wa.me/218916256233">💬 راسلنا على واتساب</a>
+                </div>
+                <div class="contact-card">
+                    <a href="mailto:trenddigitalmedia1@gmail.com">📧 trenddigitalmedia1@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <p>© 2025 TREND DIGITAL MEDIA - جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
 </html>
